@@ -82,8 +82,8 @@ The application will be accessible at http://localhost:5173.
 
 ## 📸 Screenshots of the Application   
 1. Post List View (Home Page)      
-![Screenshot 1](client/src/assets/Screenshot1.png)  
+![Screenshot 1](client/src/assets/Screenshot2.png)  
 2. Create/Edit Post Form    
-![Screenshot 2](client/src/assets/Screenshot2.png)  
+![Screenshot 2](client/src/assets/Screenshot3.png)  
 3. Single Post View    
-![Screenshot 3](client/src/assets/Screenshot3.png)  
+![Screenshot 3](client/src/assets/Screenshot1.png)  
