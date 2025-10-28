@@ -31,20 +31,21 @@ Node.js (v18+)
 npm (v9+)  
 MongoDB (Running locally or accessible via MongoDB Atlas)  
 ### 1. Clone and Install Dependencies  
-Bash#  
-Accept the GitHub Classroom assignment invitation and clone the repository   
+ 
+Accept the GitHub Classroom assignment invitation and clone the repository:    
 git clone [YOUR_GITHUB_CLASSROOM_REPO_URL]  
 
 #### Install server dependencies    
 cd server  
-npm install  
+`npm install` 
 
 #### Install client dependencies  
 cd ../client  
-npm install  
+`npm install`  
 ### 2. Configure Environment Variables  
-Create two files, .env and .env.example, in both the /server and /client directories.    
-#### /server/.env.example    
+Create two files, .env and .env.example, in both the /server and /client directories:     
+#### /server/.env.example  
+```  
 #### Database Connection String    
 MONGO_URI=mongodb://localhost:27017/mern_blog_db    
 
@@ -52,13 +53,16 @@ MONGO_URI=mongodb://localhost:27017/mern_blog_db
 JWT_SECRET=YOUR_SECURE_RANDOM_SECRET_KEY  
 
 PORT=5000  
+```  
+
 #### /client/.env.example# Base URL for the Express API.  
+``` 
 VITE_API_URL=http://localhost:5000/api  
+```
 ### 3. Start Development Servers  
-Run the following commands in separate terminal tabs:  
-Bash#  
+Run the following commands in separate terminal tabs:   
 #### Terminal 1: Start Server (in /server directory)  
-npm run dev
+`npm run dev`
 
 #### Terminal 2: Start Client (in /client directory)  
 npm run dev  
@@ -78,8 +82,8 @@ The application will be accessible at http://localhost:5173.
 
 ## 📸 Screenshots of the Application   
 1. Post List View (Home Page)      
-![Screenshot 1](client/src/assets/screenshot1.png)  
+![Screenshot 1](client/src/assets/Screenshot1.png)  
 2. Create/Edit Post Form    
-![Screenshot 2](client/src/assets/screenshot2.png)  
+![Screenshot 2](client/src/assets/Screenshot2.png)  
 3. Single Post View    
-![Screenshot 3](client/src/assets/screenshot3.png)  
+![Screenshot 3](client/src/assets/Screenshot3.png)  
