@@ -1,0 +1,16 @@
+import { Outlet } from 'react-router-dom';
+import Navigation from './Navigation';
+import { useAuth } from '../context/AuthContext'; 
+
+export default function Layout() {
+  const { user } = useAuth();
+
+  return (
+    <div className="min-h-screen bg-gray-100">
+      <Navigation user={user} />
+      <main className="container mx-auto p-4">
+        <Outlet />
+      </main>
+    </div>
+  );
+}

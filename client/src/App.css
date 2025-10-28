@@ -1,0 +1,17 @@
+
+#root {
+  min-height: 100vh;
+}
+
+
+.prose pre {
+    background-color: #2d3748; 
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+}
+
+
+a {
+    transition: color 0.15s ease-in-out;
+}
